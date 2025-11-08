@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login Form</title>
+    <link rel="stylesheet" href="/css/login.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!-- Login Container -->
+    <div class="main-container">
+      <div class="login-container">
+        <h2 class="main-header">Login</h2>
+
+        <div class="form-container">
+          <label class="email-label">Email</label>
+          <input
+            class="input-form"
+            type="email"
+            placeholder="robertdoe@example.com"
+            id="email"
+            required
+          />
+        </div>
+
+        <div class="form-container">
+          <label class="password-label">Password</label>
+          <input
+            class="input-form"
+            type="password"
+            placeholder="***********"
+            id="password"
+            required
+          />
+        </div>
+
+        <button class="btn-login" onclick="loginForm()">Login</button>
+        <p class="remind-text">
+        Don't have an Account?
+        <a class="register-link" href="#">Sign up here</a>
+      </p>
+      </div>
+      
+      <!-- Create a Register for this one as a practice okay? -->
+      
+    </div>
+
+    <script src="/javascript/login.js"></script>
+  </body>
+</html>
